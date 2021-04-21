@@ -1,0 +1,17 @@
+.button {
+    width: 7em;
+    height: 2.3em;
+    border-radius: 0.2em;
+    border: none;
+    cursor: pointer;
+    margin-right: 1em;
+    color: rgba(0, 0, 0, 0.79);
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.83);
+}
+
+.button:focus {
+    outline: none;
+}

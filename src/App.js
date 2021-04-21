@@ -1,13 +1,13 @@
 import './App.css';
 import { BrowserRouter } from "react-router-dom";
 import AppRouter from "./components/AppRouter";
-import Navbar from "./components/Navbar/Navbar";
+import Navigation from "./components/Navigation/Navigation";
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="App">
-          <Navbar />
+        <Navigation />
         <AppRouter />
       </div>
     </BrowserRouter>
